@@ -1,3 +1,144 @@
 body {
-    margin: 0;
+  margin: 0;
+  font-family: "Inter";
+  font-style: normal;
+}
+
+.frame {
+  width: 550px;
+  height: 550px;
+  margin-left: 62px;
+  margin-top: 64px;
+
+  background: #1f2937;
+}
+
+h1 {
+  width: 354px;
+  margin-left: 52px;
+  padding-top: 1px;
+
+  font-family: "Karla";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 40px;
+  line-height: 20px;
+  /* or 100% */
+
+  letter-spacing: -0.025em;
+
+  color: #4adf86;
+}
+
+.header {
+  color: #ffffff;
+  padding-top: 55px;
+}
+
+h3 {
+  width: 372px;
+  height: 28px;
+  margin-left: 52px;
+  top: 205px;
+
+  /* text-xl/leading-7/font-normal */
+
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  /* identical to box height, or 140% */
+
+  /* Medium grey */
+
+  color: #d5d4d8;
+}
+
+button {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 9px 17px 9px 15px;
+  gap: 12px;
+
+  position: absolute;
+  width: 191px;
+  height: 42px;
+  margin-left: 52px;
+  margin-top: 5px;
+
+  background: #10b981;
+  /* shadow/sm */
+
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+  border-radius: 6px;
+  color: #ffffff;
+}
+
+#password1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 9px 17px 9px 15px;
+  gap: 12px;
+
+  width: 150px;
+  height: 20px;
+  margin-left: 52px;
+  top: 396px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 32px;
+  /* identical to box height, or 200% */
+
+  text-align: center;
+
+  color: #55f991;
+
+  background: #273549;
+  border-radius: 6px;
+}
+
+#password2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 9px 17px 9px 15px;
+  gap: 12px;
+
+  width: 150px;
+  height: 20px;
+  margin-left: 52px;
+  top: 396px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 32px;
+  /* identical to box height, or 200% */
+
+  text-align: center;
+
+  color: #55f991;
+
+  background: #273549;
+  border-radius: 6px;
+}
+
+.password {
+  display: flex;
+  margin-top: 10px;
+}
+
+#line {
+  width: 446px;
+  height: 0px;
+  left: 52px;
+  margin-top: 91px;
+
+  border: 1px solid #2f3e53;
 }
