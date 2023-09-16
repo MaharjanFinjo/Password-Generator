@@ -2,15 +2,24 @@ body {
   margin: 0;
   font-family: "Inter";
   font-style: normal;
+  background-color: #201d1dfc;
 }
 
 .frame {
   width: 550px;
-  height: 550px;
-  margin-left: 62px;
+  height: 480px;
   margin-top: 64px;
-
+  margin-left: auto;
+  margin-right: auto;
   background: #1f2937;
+}
+
+.frame2 {
+  width: 550px;
+  margin-left: auto;
+  margin-right: auto;
+  background: #1f2937;
+  padding-bottom: 2px;
 }
 
 h1 {
@@ -30,12 +39,52 @@ h1 {
   color: #4adf86;
 }
 
+h2 {
+  width: 354px;
+  margin-left: 52px;
+  padding-top: 1px;
+
+  font-family: "Karla";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 20px;
+  line-height: 20px;
+  /* or 100% */
+
+  letter-spacing: -0.025em;
+
+  color: #4adf86;
+}
+
 .header {
   color: #ffffff;
   padding-top: 100px;
 }
 
+.header2 {
+  color: #ffffff;
+  padding-top: 10px;
+}
+
 h3 {
+  width: 372px;
+  height: 28px;
+  margin-left: 52px;
+  top: 205px;
+
+  /* text-xl/leading-7/font-normal */
+
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  /* identical to box height, or 140% */
+
+  /* Medium grey */
+
+  color: #d5d4d8;
+}
+
+h4 {
   width: 372px;
   height: 28px;
   margin-left: 52px;
@@ -129,6 +178,9 @@ button {
   border-radius: 6px;
 }
 
+.name {
+}
+
 .password {
   display: flex;
   margin-top: 10px;
@@ -141,4 +193,76 @@ button {
   margin-top: 91px;
 
   border: 1px solid #2f3e53;
+}
+
+/* Responsive Styles for Mobile */
+@media screen and (max-width: 768px) {
+  .frame {
+    width: 80%;
+    height: auto;
+    margin-top: 32px;
+    margin-left: auto;
+    margin-right: auto;
+    background: #1f2937;
+    padding: 16px;
+  }
+
+  .frame2 {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    background: #1f2937;
+    padding-bottom: 2px;
+  }
+
+  h1 {
+    width: auto;
+    margin-left: 0;
+    padding-top: 1px;
+    font-size: 28px;
+  }
+
+  .header {
+    color: #ffffff;
+    padding-top: 24px;
+  }
+
+  .header2 {
+    color: #ffffff;
+    padding-top: 24px;
+  }
+
+  h3 {
+    width: auto;
+    height: auto;
+    margin-left: 0;
+    margin-top: 16px;
+    font-size: 18px;
+    line-height: 24px;
+  }
+
+  button {
+    width: 80%;
+    height: 42px;
+    margin: 16px 0;
+    font-size: 18px;
+  }
+
+  #password1,
+  #password2 {
+    width: 100%;
+    margin: 16px 0;
+    font-size: 14px;
+  }
+
+  .password {
+    flex-direction: column;
+    align-items: center;
+    margin-top: 60px;
+  }
+
+  #line {
+    width: 100%;
+    margin-top: 24px;
+  }
 }
